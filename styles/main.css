@@ -1,0 +1,63 @@
+:root {
+    --Beige: #e6ddbc;
+    --Black: #262525;
+    --CrimsonRed: #822626;
+    --TaurusRed: #690202;
+}
+
+body {
+    padding: 0;
+    margin: auto;
+    font-family: 'Montserrat', monospace;
+    color: var(--Black);
+    background-color: var(--Beige);
+}
+
+header { 
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    position: fixed;
+    top: 0; 
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 2px solid var(--CrimsonRed);
+    background-color: var(--Beige);
+}
+
+#logo {
+    height: 80%;
+    margin: 6px;
+    margin-left: 20px;
+}
+
+header a {
+    margin: 50px;
+    color: var(--Black);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: var(--TaurusRed);
+}
+
+.container {
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    width: 50%;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+    background-color: var(--CrimsonRed);
+}

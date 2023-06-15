@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Estios generales-->
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/src/styles/main.css">
     <!--Animations-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Punto Mayorista</title>
@@ -13,13 +13,15 @@
 <body>
     <header>
 
-        <img src="/asserts/img/LogoPM.png" id="logo">
+        <a href="/index.html" id="logo">
+            <img src="/src/img/LogoPM.png">
+        </a>
 
         <nav>
-            <a href="">Perfumes</a>
-            <a href="">Splashes</a>
-            <a href="">Cremas</a>
-            <a href="">Relojes</a>
+            <a href="/src/pages/perfumes.html">Perfumes</a>
+            <a href="/src/pages/splashes.html">Splashes</a>
+            <a href="/src/pages/cremas.html">Cremas</a>
+            <a href="/src/pages/relojes.html">Relojes</a>
         </nav>
     </header>
 
@@ -52,9 +54,14 @@
                 </p>
             </div>
         </div>
+
+        <div class="container-admin">
+            <a href="">¿Eres el administrador?</a>
+        </div>
     </main>
 
-
+    <!--Img buton control-->
+    <script src="/src/scripts/main.js"></script>
     <!--Scroll Animation Script-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
